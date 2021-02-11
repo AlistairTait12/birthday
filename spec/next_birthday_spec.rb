@@ -1,6 +1,6 @@
-require 'birthday_calculator'
+require 'next_birthday'
 
-describe BirthdayCalculator do
+describe NextBirthday do
   describe '#current_day' do
     it 'test #current_day returns what day returns' do
       time = Time.new
